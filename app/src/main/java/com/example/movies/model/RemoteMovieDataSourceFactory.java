@@ -10,7 +10,7 @@ import androidx.paging.DataSource;
  */
 public class RemoteMovieDataSourceFactory extends DataSource.Factory<Integer, Movie> {
 
-	private String sortOrder;
+	private final String sortOrder;
 
 	public RemoteMovieDataSourceFactory(@SortOrder String sortOrder) {
 		this.sortOrder = sortOrder;

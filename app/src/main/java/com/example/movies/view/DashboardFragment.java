@@ -30,7 +30,7 @@ import static com.example.movies.model.SortOrder.TOP_RATED;
 
 public class DashboardFragment extends MovieFragment {
 
-	private DashboardAdapter adapter = new DashboardAdapter(this::onItemClick);
+	private final DashboardAdapter adapter = new DashboardAdapter(this::onItemClick);
 	private DashboardFragmentBinding binding;
 	private DashboardViewModel viewModel;
 

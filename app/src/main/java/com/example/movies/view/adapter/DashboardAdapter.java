@@ -30,7 +30,7 @@ public class DashboardAdapter extends PagedListAdapter<Movie, DashboardViewHolde
 
 	public class DashboardViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
-		private MovieItemBinding movieItemBinding;
+		private final MovieItemBinding movieItemBinding;
 
 		DashboardViewHolder(MovieItemBinding movieItemBinding) {
 			super(movieItemBinding.getRoot());
@@ -57,7 +57,7 @@ public class DashboardAdapter extends PagedListAdapter<Movie, DashboardViewHolde
 	public static final String BACKDROP_FILE_SIZE = "w500";
 
 	//Compute difference between elements
-	private static DiffUtil.ItemCallback<Movie> DIFF_CALLBACK =
+	private static final DiffUtil.ItemCallback<Movie> DIFF_CALLBACK =
 			new DiffUtil.ItemCallback<Movie>() {
 				@Override
 				public boolean areContentsTheSame(Movie oldItem, @NonNull Movie newItem) {

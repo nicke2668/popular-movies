@@ -1,0 +1,16 @@
+<resources>
+	<string name="appName">Popular Movies</string>
+	<string name="actionSettings">Settings</string>
+    <string name="mostPopular">Most Popular</string>
+    <string name="highestRated">Highest Rated</string>
+    <string name="voteAverage"><b>Vote Average</b> %s</string>
+    <string name="releaseDate"><b>Release Date</b> %s</string>
+    <string name="offlineMessage">Please check your network connection</string>
+    <string name="trailerLabel">Trailer #%d</string>
+    <string name="readMore">More</string>
+    <string name="viewFavorites">Favorites</string>
+    <string name="setFavorite">Set Favorite</string>
+    <string name="remove_favorite">Remove Favorite</string>
+    <string name="popularMovies">Popular Movies</string>
+
+</resources>

@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.movies.view.MainActivity">
+
+    <item
+        android:id="@+id/mostPopular"
+        android:orderInCategory="100"
+        android:title="@string/mostPopular"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/highestRated"
+        android:orderInCategory="100"
+        android:title="@string/highestRated"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/viewFavorites"
+        android:orderInCategory="100"
+        android:title="@string/viewFavorites"
+        app:showAsAction="never" />
+
+</menu>
